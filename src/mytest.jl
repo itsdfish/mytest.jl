@@ -1,5 +1,5 @@
 module mytest
-
-greet() = print("Hello World!")
+    export greet
+    greet() = print("Hello World!")
 
 end # module

@@ -1,9 +1,13 @@
 name = "mytest"
 uuid = "22e290ea-790c-4b7b-9af7-a081d75e075c"
-authors = ["itsdfish <itsdfish@gmail.com>"]
+authors = ["itsdfish"]
 version = "0.1.0"
 
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
 [compat]
+Distributions = "0.25.0"
 julia = "1"
 
 [extras]
